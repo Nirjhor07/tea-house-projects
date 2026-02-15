@@ -12,6 +12,13 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <title>Tea House</title>
     <style>
@@ -22,7 +29,7 @@
   </head>
   <body>
     <header>
-      <section class="grid grid-cols-2 container border-2 mx-auto">
+      <section class="grid grid-cols-2 container mx-auto">
         <div class="banner-left space-y-7">
           <h1 class="text-[#1C1C1C] font-extrabold text-7xl">
             It's good <br />
@@ -40,10 +47,23 @@
           </button>
         </div>
 
-        <div class="banner-right">
+        <div class="banner-right relative">
           <img src="images/banner.png" />
+          <div
+            class="flex items-center justify-center h-[100px] w-[255px] gap-4 absolute bottom-4 left-14 bg-amber-50 rounded-2xl"
+          >
+            <div>
+              <img src="images/Group 5.png" alt="" />
+            </div>
+            <div>
+              <p>5.00</p>
+              <h1>Trust Pilot Ratings</h1>
+            </div>
+          </div>
         </div>
       </section>
+
+      
     </header>
   </body>
 </html>
